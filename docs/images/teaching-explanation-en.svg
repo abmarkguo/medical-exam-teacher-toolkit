@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 560" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6c3483"/><stop offset="1" stop-color="#8e44ad"/>
+    </linearGradient>
+    <marker id="arr4" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#8e44ad"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="680" height="560" fill="#f7fafc"/>
+  <rect x="0" y="0" width="680" height="60" fill="url(#hdr)"/>
+  <text x="34" y="28" fill="#ffffff" font-size="20" font-weight="700">Module D · Teaching Explanation Aids</text>
+  <text x="34" y="48" fill="#e6d4f7" font-size="12.5">Convert analysis into classroom-ready assets</text>
+
+  <!-- 4 asset cards -->
+  <g font-size="12">
+    <rect x="34" y="90" width="300" height="92" rx="12" fill="#f3eafc" stroke="#8e44ad" stroke-width="1.5"/>
+    <text x="50" y="118" fill="#6c3483" font-size="14" font-weight="700">1 · Lesson Plan (教案)</text>
+    <text x="50" y="140" fill="#2c3e50">point–knowledge–question trinity</text>
+    <text x="50" y="158" fill="#2c3e50">progressive: organize → explain</text>
+
+    <rect x="346" y="90" width="300" height="92" rx="12" fill="#f3eafc" stroke="#8e44ad" stroke-width="1.5"/>
+    <text x="362" y="118" fill="#6c3483" font-size="14" font-weight="700">2 · Slide Outline (课件)</text>
+    <text x="362" y="140" fill="#2c3e50">3-stage: checklist → breakdown</text>
+    <text x="362" y="158" fill="#2c3e50">→ post-class drill</text>
+
+    <rect x="34" y="202" width="300" height="92" rx="12" fill="#f3eafc" stroke="#8e44ad" stroke-width="1.5"/>
+    <text x="50" y="230" fill="#6c3483" font-size="14" font-weight="700">3 · Lecture Script (讲稿)</text>
+    <text x="50" y="252" fill="#2c3e50">teacher narration + misconception</text>
+    <text x="50" y="270" fill="#2c3e50">callouts built in</text>
+
+    <rect x="346" y="202" width="300" height="92" rx="12" fill="#f3eafc" stroke="#8e44ad" stroke-width="1.5"/>
+    <text x="362" y="230" fill="#6c3483" font-size="14" font-weight="700">4 · Misconception Q&amp;A</text>
+    <text x="362" y="252" fill="#2c3e50">tiered: weak / medium / strong</text>
+    <text x="362" y="270" fill="#2c3e50">student answers</text>
+  </g>
+
+  <!-- trinity -->
+  <rect x="34" y="320" width="612" height="80" rx="12" fill="#ffffff" stroke="#8e44ad" stroke-width="1.3"/>
+  <text x="50" y="346" fill="#6c3483" font-size="13" font-weight="700">"Three-in-One" explanation structure</text>
+  <g font-size="11.5" fill="#2c3e50">
+    <text x="50" y="370">考点 (what is tested)  —  知识点 (what to teach)  —  考题 (how it is asked)</text>
+    <text x="50" y="390" fill="#8e44ad">Classroom rule: first organize points, then explain questions (递进式).</text>
+  </g>
+
+  <!-- closed loop -->
+  <rect x="34" y="420" width="612" height="110" rx="12" fill="#0f4c75"/>
+  <text x="50" y="448" fill="#ffffff" font-size="13" font-weight="700">Continuous Improvement Loop</text>
+  <g font-size="11.5" fill="#cfe8fb">
+    <text x="50" y="472">Teach → collect student answer data → feedback to Module A bank</text>
+    <text x="50" y="492">→ update #高频 / #易错 tags → next analysis more precise</text>
+    <text x="50" y="512" fill="#ffffff">教 — 学 — 评 — 改 (teach · learn · assess · improve)</text>
+  </g>
+</svg>
