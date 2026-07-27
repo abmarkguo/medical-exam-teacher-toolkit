@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: Medical Exam Teacher Toolkit
+message: "If you use this toolkit, please cite it as below."
+type: software
+authors:
+  - name: "OpenClaw Medical Education Skills"
+year: 2026
+repository-code: "https://github.com/abmarkguo/medical-exam-teacher-toolkit"
+url: "https://github.com/abmarkguo/medical-exam-teacher-toolkit"
+license: MIT
+keywords:
+  - medical-education
+  - physician-licensing-exam
+  - clinical-medicine
+  - exam-question-analysis
+  - question-bank
+  - teaching-research
+  - china
+  - openclaw
+  - skill
+abstract: >-
+  A professional toolkit for medical school faculty to acquire, analyze,
+  summarize, and teach Chinese Clinical Physician Licensing Examination
+  questions. Covers question acquisition and organization, precise
+  per-question analysis (exam point / cognitive level / difficulty / traps),
+  exam trend summarization, and teaching explanation aids (lesson plan,
+  slides, script, misconception Q&A). Authoritative and traceable — grounded
+  in the NHC official syllabus, PMPH guidebooks, NMEC research, and
+  real-question trend analysis.
