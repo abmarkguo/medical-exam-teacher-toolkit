@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 560" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#196f3d"/><stop offset="1" stop-color="#27ae60"/>
+    </linearGradient>
+    <marker id="arr2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#27ae60"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="680" height="560" fill="#f7fafc"/>
+  <rect x="0" y="0" width="680" height="60" fill="url(#hdr)"/>
+  <text x="34" y="28" fill="#ffffff" font-size="20" font-weight="700">Module B · Precise Question Analysis</text>
+  <text x="34" y="48" fill="#d2f0df" font-size="12.5">Five-dimension model — the backbone of "真题精析"</text>
+
+  <!-- 5 dimension cards -->
+  <g font-size="12.5">
+    <rect x="34" y="90" width="190" height="120" rx="12" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.5"/>
+    <text x="50" y="118" fill="#196f3d" font-size="15" font-weight="700">1 · Point Mapping</text>
+    <text x="50" y="142" fill="#2c3e50">Syllabus clause</text>
+    <text x="50" y="160" fill="#2c3e50">PMPH chapter</text>
+    <text x="50" y="178" fill="#2c3e50">Linked guideline</text>
+
+    <rect x="245" y="90" width="190" height="120" rx="12" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.5"/>
+    <text x="261" y="118" fill="#196f3d" font-size="15" font-weight="700">2 · Cognitive</text>
+    <text x="261" y="142" fill="#2c3e50">记忆 (memory)</text>
+    <text x="261" y="160" fill="#2c3e50">理解 (understanding)</text>
+    <text x="261" y="178" fill="#2c3e50">应用 (application)</text>
+
+    <rect x="456" y="90" width="190" height="120" rx="12" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.5"/>
+    <text x="472" y="118" fill="#196f3d" font-size="15" font-weight="700">3 · Difficulty</text>
+    <text x="472" y="142" fill="#2c3e50">易 / 中 / 难</text>
+    <text x="472" y="160" fill="#2c3e50">attribution</text>
+    <text x="472" y="178" fill="#2c3e50">rationale</text>
+
+    <rect x="34" y="232" width="190" height="120" rx="12" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.5"/>
+    <text x="50" y="260" fill="#196f3d" font-size="15" font-weight="700">4 · Traps</text>
+    <text x="50" y="284" fill="#2c3e50">per-option logic</text>
+    <text x="50" y="302" fill="#2c3e50">misleading wording</text>
+    <text x="50" y="320" fill="#2c3e50">cross-system noise</text>
+
+    <rect x="245" y="232" width="190" height="120" rx="12" fill="#e9f7ef" stroke="#27ae60" stroke-width="1.5"/>
+    <text x="261" y="260" fill="#196f3d" font-size="15" font-weight="700">5 · Common Errors</text>
+    <text x="261" y="284" fill="#2c3e50">typical wrong path</text>
+    <text x="261" y="302" fill="#2c3e50">correction strategy</text>
+    <text x="261" y="320" fill="#2c3e50">misconception callout</text>
+  </g>
+
+  <!-- center output -->
+  <rect x="456" y="232" width="190" height="120" rx="12" fill="#0f4c75"/>
+  <text x="472" y="262" fill="#ffffff" font-size="14" font-weight="700">Per-Question</text>
+  <text x="472" y="282" fill="#cfe8fb" font-size="13" font-weight="700">Analysis Report</text>
+  <text x="472" y="306" fill="#cfe8fb" font-size="11">teaching takeaway:</text>
+  <text x="472" y="324" fill="#ffffff" font-size="11">one-line + correction</text>
+
+  <g stroke="#27ae60" stroke-width="2" fill="none" marker-end="url(#arr2)">
+    <path d="M224 150 L241 150"/>
+    <path d="M435 150 L453 150"/>
+    <path d="M224 292 L241 292"/>
+    <path d="M435 292 L453 292"/>
+    <path d="M129 210 L129 228"/>
+    <path d="M340 210 L340 228"/>
+  </g>
+
+  <!-- aggregation -->
+  <rect x="34" y="384" width="612" height="150" rx="12" fill="#ffffff" stroke="#27ae60" stroke-width="1.3"/>
+  <text x="50" y="410" fill="#196f3d" font-size="14" font-weight="700">Batch Aggregation (N questions → exam report)</text>
+  <g font-size="11.5" fill="#2c3e50">
+    <text x="50" y="436">• Exam-point coverage rate (vs syllabus)</text>
+    <text x="50" y="456">• Cognitive distribution (记忆 / 理解 / 应用 %)</text>
+    <text x="50" y="476">• Difficulty distribution (易 / 中 / 难 %)</text>
+    <text x="50" y="496">• Top-10 frequent traps · system/disease heatmap</text>
+  </g>
+  <text x="470" y="436" fill="#27ae60" font-size="11.5" font-weight="600">feeds Module C</text>
+  <text x="470" y="456" fill="#27ae60" font-size="11.5" font-weight="600">(Exam Trend</text>
+  <text x="470" y="476" fill="#27ae60" font-size="11.5" font-weight="600">Summary)</text>
+  <path d="M610 384 L610 364 L612 364" stroke="#27ae60" stroke-width="2" fill="none" marker-end="url(#arr2)"/>
+</svg>
