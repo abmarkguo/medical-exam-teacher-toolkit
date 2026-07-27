@@ -80,15 +80,26 @@ medical-exam-teacher-toolkit/
 
 ## 流程图一览
 
-| 图 | 内容 |
-|----|------|
-| system-overview-en.svg | 系统总览：四模块闭环 |
-| question-acquisition-en.svg | 模块A：获取与整理流程 |
-| question-analysis-en.svg | 模块B：五维精准分析 |
-| exam-trend-summary-en.svg | 模块C：考情归纳 |
-| teaching-explanation-en.svg | 模块D：讲解教学辅助 |
-| ai-generation-en.svg | 趋势驱动智能命题 |
-| teacher-workflow-en.svg | 教师完整工作流闭环 |
+### 系统总览：四模块闭环
+![System Overview](docs/images/system-overview-en.svg)
+
+### 模块A：获取与整理流程
+![Question Acquisition](docs/images/question-acquisition-en.svg)
+
+### 模块B：五维精准分析
+![Question Analysis](docs/images/question-analysis-en.svg)
+
+### 模块C：考情归纳
+![Exam Trend Summary](docs/images/exam-trend-summary-en.svg)
+
+### 模块D：讲解教学辅助
+![Teaching Explanation](docs/images/teaching-explanation-en.svg)
+
+### 趋势驱动智能命题
+![AI Generation](docs/images/ai-generation-en.svg)
+
+### 教师完整工作流闭环
+![Teacher Workflow](docs/images/teacher-workflow-en.svg)
 
 ## 适用对象
 
