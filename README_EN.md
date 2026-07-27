@@ -54,15 +54,26 @@ medical-exam-teacher-toolkit/
 
 ### Flowcharts (docs/images/)
 
-| File | Content |
-|------|---------|
-| system-overview-en.svg | System overview: four-module loop |
-| question-acquisition-en.svg | Module A flow |
-| question-analysis-en.svg | Module B: five-dimension analysis |
-| exam-trend-summary-en.svg | Module C: trend summary |
-| teaching-explanation-en.svg | Module D: teaching aids |
-| ai-generation-en.svg | Trend-driven AI question generation |
-| teacher-workflow-en.svg | Full teacher workflow loop |
+#### System overview: four-module loop
+![System Overview](docs/images/system-overview-en.svg)
+
+#### Module A flow
+![Question Acquisition](docs/images/question-acquisition-en.svg)
+
+#### Module B: five-dimension analysis
+![Question Analysis](docs/images/question-analysis-en.svg)
+
+#### Module C: trend summary
+![Exam Trend Summary](docs/images/exam-trend-summary-en.svg)
+
+#### Module D: teaching aids
+![Teaching Explanation](docs/images/teaching-explanation-en.svg)
+
+#### Trend-driven AI question generation
+![AI Generation](docs/images/ai-generation-en.svg)
+
+#### Full teacher workflow loop
+![Teacher Workflow](docs/images/teacher-workflow-en.svg)
 
 ## Who it is for
 
